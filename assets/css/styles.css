@@ -77,8 +77,8 @@ header h2.tzine a{
 }
 
 .main-content h3{
-	font-size: 28px;
-	color:  #5a96b9;
+	font-size: 30px;
+	color:  #5A970A;
 	padding-bottom: 20px;
 }
 
@@ -129,7 +129,7 @@ header h2.tzine a{
 .filters label{
 	display: block;
 	line-height: 1.4;
-	font-size: 15px;
+	font-size: 12px;
 }
 
 .filters label input{
