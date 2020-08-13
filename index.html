@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta charset="utf-8">
+
+	<title>E-Commerce Application</title>
+
+	<link href="http://fonts.googleapis.com/css?family=Open+Sans:400" rel="stylesheet">
+	<link href="assets/css/styles.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+	  rel="stylesheet">
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body>
+
+	<header class="compact">
+		<h1><a href="#">FURNITURES</a></h1>
+	</header>
+
+	<div class="main-content">
+
+		<div class="all-products page">
+
+			<div class="filters">
+				<form>
+
+					<div class="filter-criteria">
+						<span>CATEGORY</span>
+						<label><input type="checkbox" name="manufacturer" value="bed">Bed</label>
+						<label><input type="checkbox" name="manufacturer" value="wardrobe">Wardrobe</label>
+						<label><input type="checkbox" name="manufacturer" value="bedsidetable">Bed Side Table</label>
+						<label><input type="checkbox" name="manufacturer" value="sofa">Sofa</label>
+						<label><input type="checkbox" name="manufacturer" value="studytable">Study Table</label>
+					</div>
+
+					<button>Clear All</button>
+
+				</form>
+
+			</div>
+
+			<ul class="products-list">
+				<script id="products-template" type="x-handlebars-template">​
+					{{#each this}}
+						<li data-index="{{id}}">
+							<a href="#" class="product-photo"><img src="{{image.small}}" height="130" alt="{{name}}"/></a>
+							<h2><a href="#"> {{name}} </a></h2>
+							<ul class="product-description">
+								<li><span>Product Category: </span>{{specs.manufacturer}}</li>
+							</ul>
+							<button>Buy</button>
+							<p class="product-price">Rs. {{price}}</p>
+							<div class="highlight"></div>
+							<div class="float-right"><i class="material-icons">add_shopping_cart</i></div>
+						</li>
+					{{/each}}
+				</script> 
+			</ul>
+
+		</div>
+
+
+		<div class="single-product page">
+
+			<div class="overlay"></div>
+
+			<div class="preview-large">
+				<h3>Single product view</h3>
+				<img src=""/>
+				<p></p>
+
+				<span class="close">×</span>
+			</div>
+
+		</div>
+
+		<div class="error page">
+			<h3>Sorry, something went wrong :(</h3>
+		</div>
+
+	</div>
+
+
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.min.js"></script>
+	<script src="assets/js/script.js"></script>
+
+
+</body>
+</html>

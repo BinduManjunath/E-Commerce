@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "Double Cot Bet",
+    "price": 25000,
+    "specs": {
+      "manufacturer": "bed"
+    },
+    "description": "Enhance the modernity of your bedroom with this king-size bed. It is made from rubber wood and for a sturdy base",
+    "rating": 4,
+    "image": {
+      "small": "assets/images/bedSmall.jpg",
+      "large": "assets/images/bedLarge.jpg"
+    }
+  },
+  {
+    "id": 2,
+    "name": "2 door wardrobe",
+    "price": 8500,
+    "specs": {
+      "manufacturer": "wardrobe"
+    },
+    "description": "Wakefit 2 door wardrobe with drawer",
+    "rating": 4,
+    "image": {
+      "small": "assets/images/wardrobeSmall.jpg",
+      "large": "assets/images/wardrobeLarge.jpg"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Bed Side Table",
+    "price": 899,
+    "specs": {
+      "manufacturer": "bedsidetable"
+    },
+    "description": "Wakefit Elara Single Bottom Drawer Bedside Table",
+    "rating": 4,
+    "image": {
+      "small": "assets/images/bedsidetableSmall.jpg",
+      "large": "assets/images/bedsidetableLarge.jpg"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Study Table",
+    "price": 899,
+    "specs": {
+      "manufacturer": "studytable"
+    },
+    "description": "Wakefit Athena Study Table",
+    "rating": 4,
+    "image": {
+      "small": "assets/images/studytableSmall.jpg",
+      "large": "assets/images/studytableLarge.jpg"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Fabric Sofa",
+    "price": 15000,
+    "specs": {
+      "manufacturer": "Sofa"
+    },
+    "description": "Signature Arden Fabric Left Arm Sofa -2 Seater Beige",
+    "rating": 4,
+    "image": {
+      "small": "assets/images/sofaSmall.jpg",
+      "large": "assets/images/sofaLarge.jpg"
+    }
+  }
+]
